@@ -11,19 +11,18 @@
    INDEX.HTML
    ===================================================================================================== */
 
-
-
-/* Puts top image where it needs to be */
 div#mainMenu {
-    background: url(../img/topimage.jpg);
-    width: auto;
-    border: hidden;
-    background-repeat: no-repeat;
-    overflow: hidden;
+    border: none;
+    margin-bottom: -10px;
 }
 
 p#branding {
     text-align: center;
+}
+
+ul#buttons > li {
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 /* Align Bob's DVD Superstore image */
