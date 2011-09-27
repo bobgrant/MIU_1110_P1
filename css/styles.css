@@ -47,34 +47,6 @@ li {
     margin-left: -40px;
 }
 
-/* INDIVIDUAL SETTINGS FOR BUTTONS ON INDEX.HTML */
-
-/* Download Catalog */
-img#downloadCat {
-    margin-top: -5px;
-}
-
-/* Request Catalog */
-img#requestCat {
-    margin-top: -4px;
-}
-
-/* Order Status */
-img#orderStat {
-    margin-top: -1px;
-}
-
-/* Settings */
-img#settings {
-    margin-top: -4px;
-    margin-left: -1px;
-}
-
-/* Sign out */
-img#signout {
-    margin-top: -7px;
-}
-
 /* Aligns my credits on the index.html bottom right. */
 p#credits {
     margin-top: 15px;
@@ -96,10 +68,9 @@ a#emailLink:hover {
 
 /* Set the background image and parameters of the fieldset */
 fieldset#main {                  
-    /*width:300px;*/
     margin-left: -10px;
     background: url(../img/background.jpg);
-    overflow: hidden;                      
+    /*overflow: hidden;                      */
 } /* END fieldset main */
 
 
