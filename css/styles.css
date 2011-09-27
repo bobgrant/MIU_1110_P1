@@ -41,6 +41,10 @@ img#searchBox {
     text-align: center;
 }
 
+input#searchBox {
+    height: 20px;
+    font-size: larger;
+}
 
 /* SET LEFT MARGIN FOR ALL BUTTONS ON INDEX.HTML */
 li {
