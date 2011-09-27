@@ -22,10 +22,8 @@ div#mainMenu {
     overflow: hidden;
 }
 
-img#branding {
-    margin-top: 30px;
-    width: auto;
-    height: auto;
+p#branding {
+    text-align: center;
 }
 
 /* Align Bob's DVD Superstore image */
