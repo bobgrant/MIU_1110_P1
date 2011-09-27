@@ -32,11 +32,8 @@ img#headerImage {
     opacity: 0.6;
 }
 
-/* Center companyMessage on div#mainMenu above */
-p#companyMessage {
-    color: white;
-    margin-top: 2px;
-    margin-left: 10px;
+img#searchBox {
+    text-align: center;
 }
 
 
