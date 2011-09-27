@@ -77,15 +77,14 @@ img#signout {
 
 /* Aligns my credits on the index.html bottom right. */
 p#credits {
-    margin-top: 75px;
-    margin-left: 120px;
-    opacity: 0.4;
+    margin-top: 15px;
+    color: blue;
 }
 
 /* Credits is a hyperlink to my Full Sail email account -- Setup colors so they
    hover differenlty then all other hyperlinks where opacity was used. */
 a#emailLink:hover {
-    color: black;
+    color: #006633;
     opacity: 1.9;
 }
 
