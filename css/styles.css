@@ -84,7 +84,7 @@ p#credits {
 /* Credits is a hyperlink to my Full Sail email account -- Setup colors so they
    hover differenlty then all other hyperlinks where opacity was used. */
 a#emailLink:hover {
-    color: #006633;
+    color: #CCCC00;
     opacity: 1.9;
 }
 
@@ -160,7 +160,7 @@ legend#legMovie {
 
 
 /* Set hyperlink colors LoVe HAte */
-a:link {color: #1a3402;}
+a:link {color: #996600;}
 a:visited{color: black;}
 a:hover{color: #55812d;}
 a:active{color: #faf104;}
