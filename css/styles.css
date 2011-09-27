@@ -15,14 +15,16 @@
 
 /* Puts top image where it needs to be */
 div#mainMenu {
-    margin-left: -10px;
-    margin-top: -10px;
-    margin-bottom: 0px;
-    height: 144px;
-    width: 328px;
-    background: url(../img/topImage.jpg);
+    background: url(../img/topimage.jpg);
+    width: auto;
+    border: hidden;
     background-repeat: no-repeat;
     overflow: hidden;
+}
+
+img#branding {
+    margin-top: 100px;
+    width: auto;
 }
 
 /* Align Bob's DVD Superstore image */
@@ -39,16 +41,6 @@ p#companyMessage {
     margin-left: 10px;
 }
 
-/* SETS middleImage where it needs to be in ul#buttons */
-ul#buttons {
-    list-style-type: none;
-    height: 469px;
-    margin-top: 1px;
-    margin-left: -10px;
-    width: 328px;
-    background: url(../img/middleImage.jpg);
-    background-repeat: no-repeat;    
-}
 
 /* SET LEFT MARGIN FOR ALL BUTTONS ON INDEX.HTML */
 li {
@@ -156,9 +148,8 @@ label {
 
 
 body {
-    height: 400px;
+    background: black;
     margin-top: 0px;
-    margin-left: 10px;
 } /* END body */
 
 
