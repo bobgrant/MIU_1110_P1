@@ -77,6 +77,11 @@ fieldset#main {
     /*overflow: hidden;                      */
 } /* END fieldset main */
 
+/* Put Bobs DVD Superstore image on top */
+div#branding {
+    height: 150px;
+    background: url(../img/branding.jpg);
+}
 
 
 /* Set the width and cursor pointer for the range slider */
