@@ -1,9 +1,9 @@
 /*
 
 Robert H. Grant
-VFW :: 1109 :: P4
-Instructor: Chad Gibson
-Full Sail University
+MiU :: 1110 :: P1
+Full Sail Univeristy
+Instructor: Chris Burke
 Filename: main.js
 
 */
