@@ -64,6 +64,7 @@ input#searchBox {
 
 /* Make Search Button Larger */
 input#searchButton {
+    margin-top: 10px;
     height: 25px;
     font-size: 25px;
 }
