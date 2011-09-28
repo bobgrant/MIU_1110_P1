@@ -29,6 +29,7 @@ p#ctaPara {
 }
 
 div#cta {
+    margin-top: -25px;
     border: none;
 }
 
