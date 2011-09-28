@@ -64,6 +64,11 @@ input#searchBox {
     font-size: larger;
 }
 
+input#searchButton {
+    height: 30px;
+    font-size: 30px;
+}
+
 /* SET LEFT MARGIN FOR ALL BUTTONS ON INDEX.HTML */
 li {
     margin-left: -40px;
