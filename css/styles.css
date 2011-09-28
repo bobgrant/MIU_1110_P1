@@ -10,7 +10,9 @@ Filename: style.css
 /* =====================================================================================================
    INDEX.HTML
    ===================================================================================================== */
-
+body {
+    background: black;
+}
 div#mainMenu {
     border: none;
     margin-bottom: -10px;
@@ -19,6 +21,15 @@ div#mainMenu {
 p#branding {
     text-align: center;
     margin-bottom: -8px;
+}
+
+p#ctaPara {
+    text-align: center;
+    border: none;
+}
+
+div#cta {
+    border: none;
 }
 
 ul#buttons > li {
@@ -65,96 +76,6 @@ a#emailLink:hover {
 }
 
 /* END INDIVIDUAL SETTINGS FOR BUTTONS ON INDEX.HTML */
-
-/* =====================================================================================================
-   ADDITEM.HTML
-   ===================================================================================================== */
-
-/* Set the background image and parameters of the fieldset */
-fieldset#main {                  
-    margin-left: -10px;
-    background: url(../img/background.jpg);
-    /*overflow: hidden;                      */
-} /* END fieldset main */
-
-/* Put Bobs DVD Superstore image on top */
-div#branding {
-    height: 150px;
-    background: url(../img/branding.jpg);
-}
-
-
-/* Set the width and cursor pointer for the range slider */
-input#copiesNeeded {                          
-    width: 290px;
-    cursor: move;
-} /* END input#copiesNeeded */
-
-
-
-/* Set the border and cursor pointer for the checkbox. */
-input#wasInTheaters {                         
-    outline: double;                          
-    
-    /* Hand pointer for cursor */
-    cursor: pointer;
-    
-} /* END input#wasInTheaters */
-
-
-
-/* Make all labels use the following settings */
-label {              
-    font-family: Arial, Times, Helvetica;
-    color: #1a3402;
-} /* END label */
-
-
-/* Set body up as needed for dark background and no margin on top */
-body {
-    background: black;
-    margin-top: 0px;
-} /* END body */
-
-
-
-/* Hide the legend */
-legend#legMovie {    
-    display:none;    
-} /* END legend#legMovie */
-
-
-/* Set hyperlink colors LoVe HAte */
-a:link {color: #996600;}
-a:visited{color: black;}
-a:hover{color: #55812d;}
-a:active{color: #faf104;}
-} /* END a */
-
-
-/* Make all input fields transparent for uniqueness */
-input {
-    opacity:0.8;     
-} /* END input */
-
-/* Center the submit button */
-p#submitButton {
-    text-align: center;
-} /* END p#submitButton */
-
-
-/* Set shipping box parameters. */
-textarea#tcomment {  
-    height: 80px;
-    margin-bottom: 2px;
-} /* END textarea#tcomment */
-
-
-/* Setup release date parameters. */
-input#releaseDate {
-    margin-top: 20px;
-    width: 90px;
-} /* END input#releaseDate */
 
 /* ====================================================================================
    RECEIPT CONTROL
