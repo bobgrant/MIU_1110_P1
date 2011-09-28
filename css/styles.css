@@ -42,31 +42,30 @@ img#addItem {
     margin-top: -10px;
 }
 
-/* Align Bob's DVD Superstore image */
-img#headerImage {
-    margin-top: 20px;
-    border: 1px solid white;
-    opacity: 0.6;
-}
 
+
+/* Put the words, "Can't find what you're looking for" Centered on page */
 p#noFind {
     color: white;
     font-size: large;
     text-align: center;
 }
 
+/* Center Search Box */
 img#searchBox {
     text-align: center;
 }
 
+/* Make Search Box Larger */
 input#searchBox {
     height: 30px;
     font-size: larger;
 }
 
+/* Make Search Button Larger */
 input#searchButton {
-    height: 27px;
-    font-size: 27px;
+    height: 25px;
+    font-size: 25px;
 }
 
 /* SET LEFT MARGIN FOR ALL BUTTONS ON INDEX.HTML */
