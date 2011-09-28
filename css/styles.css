@@ -49,6 +49,12 @@ img#headerImage {
     opacity: 0.6;
 }
 
+p#noFind {
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
 img#searchBox {
     text-align: center;
 }
