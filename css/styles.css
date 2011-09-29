@@ -38,10 +38,24 @@ ul#buttons > li {
     margin-bottom: -4px;
 }
 
+
 img#addItem {
     margin-top: -10px;
 }
 
+div#subMenu1 {
+    border: none;
+}
+
+/* Line up sub menus G, PG13, R, NC17 and NR to the right with small clearance between buttons */
+div#subMenu1 p{
+    text-align: right;
+    margin-bottom: -15px;
+}
+
+div#subMenu1 img {
+    border: 2px dotted gray;
+}
 
 
 /* Put the words, "Can't find what you're looking for" Centered on page */
