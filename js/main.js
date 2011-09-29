@@ -39,17 +39,16 @@ function runStartup(){
 
 // Shows and hides sub menu in index.html when user clicks on Browse by rating button.  Shows below Browse button.
 function toggleSubMenu (){
-    if (document.getElementById("subMenu1").style.display == "none") {
+   
+    if (document.getElementById("subMenu1").style.display == "none" ||
+        document.getElementById("subMenu1").style.display == "") {
         document.getElementById("subMenu1").style.display = "block";
         return false;
     } else {// END if document subMenu1
         document.getElementById("subMenu1").style.display = "none";
         return false;
        } // END else
-    // Automatically display if current style.display was null.
-    document.getElementById("subMenu1").style.display = "block";
-    
-}
+} // END toggleSubMenu function
 
 // ====================================================================================================================
 // Color change on focus
