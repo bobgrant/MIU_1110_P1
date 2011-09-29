@@ -8,13 +8,6 @@ Filename: main.js
 
 */
 
-function toggleSubMenu (){
-    if (document.getElementById("subMenu1").style.display == "none") {
-        document.getElementById("subMenu1").style.display = "block";
-    } else {// END if document subMenu1
-        document.getElementById("subMenu1").style.display = "none"; 
-       }
-}
 
 // ====================================================================================================================
 // Execute several startup functions after the DOM is completely loaded.
@@ -27,6 +20,8 @@ var ratedPG13       = new Image(); ratedPG13.src = "img/pg13.jpg";
 var ratedR          = new Image(); ratedR.src = "img/r.jpg";
 var ratedNC17       = new Image(); ratedNC17.src = "img/nc17.jpg";
 var ratedNR         = new Image(); ratedNR.src = "img/nr.jpg";
+// Preload images for sub menu in index.html
+var subG            = new Image(); subG.src = "img/subG.jpg";
     
 // Run startup procedures (seen directly below)
 window.onload = runStartup();
@@ -40,6 +35,20 @@ function runStartup(){
     autoFillDate(); // Set date field to todays date.
     document.getElementById('category').focus(); // Set focus to first input field
     showStorage(); // Shows internal storage in alert box if information exists.
+}
+
+// Shows and hides sub menu in index.html when user clicks on Browse by rating button.  Shows below Browse button.
+function toggleSubMenu (){
+    if (document.getElementById("subMenu1").style.display == "none") {
+        document.getElementById("subMenu1").style.display = "block";
+        return false;
+    } else {// END if document subMenu1
+        document.getElementById("subMenu1").style.display = "none";
+        return false;
+       } // END else
+    // Automatically display if current style.display was null.
+    document.getElementById("subMenu1").style.display = "block";
+    
 }
 
 // ====================================================================================================================
