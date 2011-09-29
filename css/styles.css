@@ -100,6 +100,21 @@ input#searchButton {
     font-size: 25px;
 }
 
+/* Center search box on form. */
+p#searchBox {
+    text-align: center;
+}
+
+/* Center search button on form. */
+p#searchButton {
+    text-align: center;
+}
+
+/* Center credits on form. */
+p#credits {
+    text-align: center;
+}
+
 /* SET LEFT MARGIN FOR ALL BUTTONS ON INDEX.HTML */
 li {
     margin-left: -40px;
