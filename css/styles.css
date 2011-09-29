@@ -107,6 +107,7 @@ p#searchBox {
 
 /* Center search button on form. */
 p#searchButton {
+    margin-top: -30px;
     text-align: center;
 }
 
