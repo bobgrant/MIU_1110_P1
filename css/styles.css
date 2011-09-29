@@ -57,6 +57,10 @@ div#subMenu1 img {
     border: 2px dotted gray;
 }
 
+#lastSub {
+    margin-bottom: 20px;
+}
+
 
 /* Put the words, "Can't find what you're looking for" Centered on page */
 p#noFind {
