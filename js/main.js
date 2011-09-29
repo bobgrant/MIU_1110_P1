@@ -42,10 +42,16 @@ function toggleSubMenu (){
    
     if (document.getElementById("subMenu1").style.display == "none" ||
         document.getElementById("subMenu1").style.display == "") {
+        
+        // Show subMenu and change Browse Movies button to one showing triangle pointing down.
+        document.getElementById("browseMovies").src = "img/browseMovies_open.jpg";
         document.getElementById("subMenu1").style.display = "block";
         return false;
     } else {// END if document subMenu1
+        
+        // Close subMenu and change Browse Movies button back to normal so triangle points left again.
         document.getElementById("subMenu1").style.display = "none";
+        document.getElementById("browseMovies").src = "img/browseMovies_normal.jpg";
         return false;
        } // END else
 } // END toggleSubMenu function

@@ -10,39 +10,48 @@ Filename: style.css
 /* =====================================================================================================
    INDEX.HTML
    ===================================================================================================== */
+
+/* Make entire background black */
 body {
     background: black;
 }
+
+/* MAIN MENU: Hide the border and pull it in tight toward the top of the app */
 div#mainMenu {
     border: none;
     margin-bottom: -10px;
 }
 
+/* Center the Branding graphic */
 p#branding {
     text-align: center;
     margin-bottom: -8px;
 }
 
+/* Center the CTA */
 p#ctaPara {
     text-align: center;
     border: none;
 }
 
+/* CTA: Hide the border and pull it in tightly toward Branding image */
 div#cta {
     margin-top: -25px;
     border: none;
 }
 
+/* ALL BUTTONS are Right Justified */
 ul#buttons > li {
     text-align: right;
     margin-bottom: -4px;
 }
 
-
+/* Pull Add Item button in closer to the CTA graphic. */
 img#addItem {
     margin-top: -10px;
 }
 
+/* HIDE THE subMENU until JavaScript shows it.  JS will show it when Browse button is clicked. */
 div#subMenu1 {
     border: none;
     display: none;
@@ -54,13 +63,16 @@ div#subMenu1 p{
     text-align: right;
 }
 
+/* Take bottom decorative graphic under subMenu options and pull it in tight */
 #subMenu2 {
     margin-bottom: -20px;
 }
 
+/* Pull bottom button up tight in subMenu. */
 #lastSub {
     margin-bottom: 20px;
 }
+
 
 
 /* Put the words, "Can't find what you're looking for" Centered on page */
