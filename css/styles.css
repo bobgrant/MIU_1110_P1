@@ -45,6 +45,7 @@ img#addItem {
 
 div#subMenu1 {
     border: none;
+    display: none;
 }
 
 /* Line up sub menus G, PG13, R, NC17 and NR to the right with small clearance between buttons */

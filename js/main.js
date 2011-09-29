@@ -8,6 +8,14 @@ Filename: main.js
 
 */
 
+function toggleSubMenu (){
+    if (document.getElementById("subMenu1").style.display == "none") {
+        document.getElementById("subMenu1").style.display = "block";
+    } else {// END if document subMenu1
+        document.getElementById("subMenu1").style.display = "none"; 
+       }
+}
+
 // ====================================================================================================================
 // Execute several startup functions after the DOM is completely loaded.
 // ====================================================================================================================
