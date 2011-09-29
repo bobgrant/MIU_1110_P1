@@ -22,6 +22,7 @@ var ratedNC17       = new Image(); ratedNC17.src = "img/nc17.jpg";
 var ratedNR         = new Image(); ratedNR.src = "img/nr.jpg";
 // Preload images for sub menu in index.html
 var subG            = new Image(); subG.src = "img/subG.jpg";
+var browseMovies    = new Image(); browseMovies = "img/browseMovies_open.jpg";
     
 // Run startup procedures (seen directly below)
 window.onload = runStartup();
