@@ -34,7 +34,7 @@ div#cta {
 }
 
 ul#buttons > li {
-    text-align: center;
+    text-align: right;
     margin-bottom: -4px;
 }
 
@@ -50,8 +50,12 @@ div#subMenu1 {
 
 /* Line up sub menus G, PG13, R, NC17 and NR to the right with small clearance between buttons */
 div#subMenu1 p{
+    margin-top: -3px;
     text-align: right;
-    margin-bottom: -15px;
+}
+
+#subMenu2 {
+    margin-bottom: -20px;
 }
 
 #lastSub {
